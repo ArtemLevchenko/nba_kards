@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "Mike Brown",
+    "description": "Tactical Coach",
+    "image": "mike_brown_1.jpg",
+    "coachSetting": {
+      "attack": {
+        "value": 2
+      },
+      "defense": {
+        "value": 2
+      },
+      "tactical": {
+        "value": 3
+      }
+    }
+  }
+]

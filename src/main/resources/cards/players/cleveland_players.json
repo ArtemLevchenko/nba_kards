@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name": "LeBron James",
+    "attack": {
+      "value": 5
+    },
+    "defense": {
+      "value": 5
+    },
+    "score": {
+      "min": 4,
+      "max": 12
+    },
+    "image": "lebron_james_1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "LeBron James",
+    "attack": {
+      "value": 5
+    },
+    "defense": {
+      "value": 4
+    },
+    "score": {
+      "min": 2,
+      "max": 8
+    },
+    "image": "lebron_james_2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "LeBron James",
+    "attack": {
+      "value": 4
+    },
+    "defense": {
+      "value": 3
+    },
+    "score": {
+      "min": 2,
+      "max": 6
+    },
+    "image": "lebron_james_3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "LeBron James",
+    "attack": {
+      "value": 3
+    },
+    "defense": {
+      "value": 5
+    },
+    "score": {
+      "min": 2,
+      "max": 6
+    },
+    "image": "lebron_james_4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Zydrunas Ilgauskas",
+    "attack": {
+      "value": 3
+    },
+    "defense": {
+      "value": 4
+    },
+    "score": {
+      "min": 2,
+      "max": 6
+    },
+    "image": "zydrunas_ilgauskas_1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Zydrunas Ilgauskas",
+    "attack": {
+      "value": 2
+    },
+    "defense": {
+      "value": 3
+    },
+    "score": {
+      "min": 2,
+      "max": 5
+    },
+    "image": "zydrunas_ilgauskas_2.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Drew Gooden",
+    "attack": {
+      "value": 3
+    },
+    "defense": {
+      "value": 3
+    },
+    "score": {
+      "min": 2,
+      "max": 6
+    },
+    "image": "drew_gooden_1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Drew Gooden",
+    "attack": {
+      "value": 3
+    },
+    "defense": {
+      "value": 2
+    },
+    "score": {
+      "min": 2,
+      "max": 8
+    },
+    "image": "drew_gooden_2.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Larry Hughes",
+    "attack": {
+      "value": 4
+    },
+    "defense": {
+      "value": 5
+    },
+    "score": {
+      "min": 1,
+      "max": 8
+    },
+    "image": "larry_hughes_1.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Larry Hughes",
+    "attack": {
+      "value": 3
+    },
+    "defense": {
+      "value": 5
+    },
+    "score": {
+      "min": 2,
+      "max": 8
+    },
+    "image": "larry_hughes_2.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Eric Snow",
+    "attack": {
+      "value": 1
+    },
+    "defense": {
+      "value": 4
+    },
+    "score": {
+      "min": 2,
+      "max": 6
+    },
+    "image": "eric_snow_1.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Eric Snow",
+    "attack": {
+      "value": 0
+    },
+    "defense": {
+      "value": 4
+    },
+    "score": {
+      "min": 2,
+      "max": 4
+    },
+    "image": "eric_snow_2.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Donyell Marshall",
+    "attack": {
+      "value": 3
+    },
+    "defense": {
+      "value": 1
+    },
+    "score": {
+      "min": 2,
+      "max": 6
+    },
+    "image": "donyell_marshall_1.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Donyell Marshall",
+    "attack": {
+      "value": 3
+    },
+    "defense": {
+      "value": 2
+    },
+    "score": {
+      "min": 2,
+      "max": 6
+    },
+    "image": "donyell_marshall_2.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Ronald Murray",
+    "attack": {
+      "value": 2
+    },
+    "defense": {
+      "value": 2
+    },
+    "score": {
+      "min": 2,
+      "max": 6
+    },
+    "image": "ronald_murray_1.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Damon Jones",
+    "attack": {
+      "value": 3
+    },
+    "defense": {
+      "value": 0
+    },
+    "score": {
+      "min": 2,
+      "max": 10
+    },
+    "image": "damon_jones_1.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Anderson Varejao",
+    "attack": {
+      "value": 1
+    },
+    "defense": {
+      "value": 1
+    },
+    "score": {
+      "min": 2,
+      "max": 4
+    },
+    "image": "anderson_varejao_1.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Sasha Pavlovic",
+    "attack": {
+      "value": 2
+    },
+    "defense": {
+      "value": 2
+    },
+    "score": {
+      "min": 2,
+      "max": 6
+    },
+    "image": "sasha_pavlovic_1.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Zydrunas Ilgauskas",
+    "attack": {
+      "value": 2
+    },
+    "defense": {
+      "value": 2
+    },
+    "score": {
+      "min": 2,
+      "max": 5
+    },
+    "image": "zydrunas_ilgauskas_3.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Larry Hughes",
+    "attack": {
+      "value": 2
+    },
+    "defense": {
+      "value": 3
+    },
+    "score": {
+      "min": 2,
+      "max": 4
+    },
+    "image": "larry_hughes_3.jpg"
+  }
+]

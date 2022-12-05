@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Pick & Roll",
+    "cardEvent": {
+      "gameEventType": "ATTACK",
+      "characteristic": {
+        "value": 2
+      },
+      "image": "pick_roll_1.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Diamond",
+    "cardEvent": {
+      "gameEventType": "ATTACK",
+      "characteristic": {
+        "value": 3
+      },
+      "image": "diamond_1.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Quick 23 Pin Chin",
+    "cardEvent": {
+      "gameEventType": "ATTACK",
+      "characteristic": {
+        "value": 1
+      },
+      "image": "quick_23_pin_chin_1.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Double Team",
+    "cardEvent": {
+      "gameEventType": "DEFENSE",
+      "characteristic": {
+        "value": 2
+      },
+      "image": "double_team_1.jpg"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Crash Rebounds",
+    "cardEvent": {
+      "gameEventType": "DEFENSE",
+      "characteristic": {
+        "value": 1
+      },
+      "image": "crash_rebounds_1.jpg"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Concentrate Defense",
+    "cardEvent": {
+      "gameEventType": "DEFENSE",
+      "characteristic": {
+        "value": 2
+      },
+      "image": "concentrate_defense_1.jpg"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Timeout",
+    "cardEvent": {
+      "gameEventType": "DRAW",
+      "characteristic": {
+        "value": 2
+      },
+      "image": "timeout_1.jpg"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Timeout",
+    "cardEvent": {
+      "gameEventType": "DRAW",
+      "characteristic": {
+        "value": 2
+      },
+      "image": "timeout_1.jpg"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Timeout",
+    "cardEvent": {
+      "gameEventType": "DRAW",
+      "characteristic": {
+        "value": 2
+      },
+      "image": "timeout_1.jpg"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Heroic Defense",
+    "cardEvent": {
+      "gameEventType": "DEFENSE",
+      "characteristic": {
+        "value": 10
+      },
+      "image": "heroic_defense_1.jpg"
+    }
+  }
+]
