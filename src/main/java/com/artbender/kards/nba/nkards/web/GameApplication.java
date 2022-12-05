@@ -1,4 +1,4 @@
-package com.artbender.kards.nba.nkards;
+package com.artbender.kards.nba.nkards.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
