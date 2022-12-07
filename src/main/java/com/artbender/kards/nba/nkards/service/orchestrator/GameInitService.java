@@ -3,6 +3,7 @@ package com.artbender.kards.nba.nkards.service.orchestrator;
 import com.artbender.kards.nba.nkards.core.model.card.Coach;
 import com.artbender.kards.nba.nkards.core.model.card.PlayerCard;
 import com.artbender.kards.nba.nkards.core.model.card.TacticalCard;
+import com.artbender.kards.nba.nkards.core.model.dto.rest.GameRequest;
 import com.artbender.kards.nba.nkards.service.context.CoachContext;
 import com.artbender.kards.nba.nkards.service.context.GameContext;
 import com.artbender.kards.nba.nkards.service.loader.CoachLoader;
@@ -22,10 +23,10 @@ public class GameInitService {
     private final CoachLoader coachLoader;
     private final TacticalCardLoader tacticalCardLoader;
 
-    public GameContext initGameContext(String teamHome, String teamAway) {
+    public GameContext initGameContext(GameRequest teamGameRequest) {
         return GameContext.builder()
-                .homeCoachContext(initActionParams(teamHome))
-                .awayCoachContext(initActionParams(teamAway))
+                .homeCoachContext(initActionParams(teamGameRequest.getHomeTeam()))
+                .awayCoachContext(initActionParams(teamGameRequest.getAwayTeam()))
                 .build();
     }
 
