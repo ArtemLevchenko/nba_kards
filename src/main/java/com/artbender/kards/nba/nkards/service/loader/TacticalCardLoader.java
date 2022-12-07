@@ -1,6 +1,7 @@
 package com.artbender.kards.nba.nkards.service.loader;
 
 import com.artbender.kards.nba.nkards.core.model.card.TacticalCard;
+import com.artbender.kards.nba.nkards.core.model.exception.GameLoadDataException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 
@@ -26,8 +27,8 @@ public class TacticalCardLoader implements DataLoader<TacticalCard> {
             BufferedReader reader = new BufferedReader(new InputStreamReader(is));
             tacticalCards = mapper.readValue(reader, TacticalCard[].class);
         } catch (IOException e) {
-            log.debug("Loading Data Problem: " + e.getMessage());
-            throw new RuntimeException(e);
+            log.debug("Loading TacticalCardLoader Problem: " + e.getMessage());
+            throw new GameLoadDataException("Loading Data TacticalCardLoader Problem for the path: " + path);
         }
         return Arrays.asList(tacticalCards);
     }

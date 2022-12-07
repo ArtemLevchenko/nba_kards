@@ -1,6 +1,7 @@
 package com.artbender.kards.nba.nkards.service.loader;
 
 import com.artbender.kards.nba.nkards.core.model.card.Coach;
+import com.artbender.kards.nba.nkards.core.model.exception.GameLoadDataException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 
@@ -27,8 +28,8 @@ public class CoachLoader implements DataLoader<Coach> {
             BufferedReader reader = new BufferedReader(new InputStreamReader(is));
             coachCards = mapper.readValue(reader, Coach[].class);
         } catch (IOException e) {
-            log.debug("Loading Data Problem: " + e.getMessage());
-            throw new RuntimeException(e);
+            log.debug("Loading CoachLoader Problem: " + e.getMessage());
+            throw new GameLoadDataException("Loading Data CoachLoader Problem for the path: " + path);
         }
         return Arrays.asList(coachCards);
     }
